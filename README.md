@@ -1,6 +1,17 @@
 # MMC - My Money Control
 
-TODO:
+### Description
 
-all -> configurar caminhos relativos
-index.ts -> alterar a configuração do server miragejs
+Money management project with ReactJS (front-end) with MirageJS (back-end Mock)
+
+### Using
+
+- Typescript
+- Hooks
+- Styled Components
+- Axios
+- MirageJS
+
+### Screen
+
+<img src="doc_assets/screen-record.gif" width="800" />

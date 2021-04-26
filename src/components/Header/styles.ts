@@ -27,3 +27,13 @@ export const Content = styled.div`
     }
   }
 `;
+
+export const Logo = styled.h3`
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  span {
+    color: var(--green);
+    font-weight: 600;
+  }
+`;

@@ -1,5 +1,4 @@
-import logo from "../../assets/logo.svg";
-import { Container, Content } from "./styles";
+import { Container, Content, Logo } from "./styles";
 
 interface HeaderProps {
   onOpenNewTransctionModal: () => void;
@@ -9,7 +8,9 @@ export function Header({ onOpenNewTransctionModal }: HeaderProps) {
   return (
     <Container>
       <Content>
-        <img src={logo} alt="MCC logo" />
+        <Logo>
+          <span>MCC</span> - My Control Money
+        </Logo>
         <button type="button" onClick={onOpenNewTransctionModal}>
           Nova transação
         </button>
